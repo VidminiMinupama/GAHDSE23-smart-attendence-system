@@ -1,0 +1,33 @@
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.custom-input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #3f3cbb, #1e1e2f);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.logo-overlay img {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* NEW: Custom background color for form section */
+.custom-form-bg {
+  background-color: #160F7C !important;
+}
