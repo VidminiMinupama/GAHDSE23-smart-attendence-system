@@ -1,0 +1,70 @@
+.home-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 50px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.icon-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+
+.icon-box:hover {
+  background-color: #e0f7fa;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.icon-image {
+  width: 100px; /* Increased size */
+  height: 100px; /* Increased size */
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.icon-box p {
+  margin: 0;
+  font-size: 18px; /* Larger font for better visibility */
+  font-weight: 600;
+}

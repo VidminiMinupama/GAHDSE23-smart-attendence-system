@@ -1,0 +1,58 @@
+.schedule-modules-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-modules-page h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+.schedule-modules-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.schedule-modules-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #555;
+}
+
+.schedule-modules-form input,
+.schedule-modules-form select {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.schedule-modules-form input:focus,
+.schedule-modules-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.schedule-modules-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-modules-form button:hover {
+  background-color: #0056b3;
+}
